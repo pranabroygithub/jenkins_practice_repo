@@ -10,7 +10,7 @@ pipeline {
 
     stage('second stage') {
       steps {
-        sh 'echo "ls"'
+        sh 'ls'
         echo 'final msg'
       }
     }
